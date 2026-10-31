@@ -64,8 +64,8 @@ const Login = () => {
       });
     } else if (type === "admin") {
       setFormData({
-        email: "surajadmin@gmail.com",
-        password: "surajadmin@123$NotCorrect",
+        email: "jobportal@gmail.com",
+        password: "jobportal@123$NotCorrect",
         userType: "admin",
       });
     } else {
@@ -184,7 +184,7 @@ const Login = () => {
                   >
                     <div className="font-medium text-blue-700">Admin</div>
                     <div className="text-gray-500">
-                      surajadmin@gmail.com / surajadmin@123$
+                      jobportal@gmail.com / jobportal@123$
                     </div>
                   </button>
                 </div>
