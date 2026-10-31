@@ -65,7 +65,7 @@ const Login = () => {
     } else if (type === "admin") {
       setFormData({
         email: "surajadmin@gmail.com",
-        password: "surajadmin@123$",
+        password: "surajadmin@123$NotCorrect",
         userType: "admin",
       });
     } else {
